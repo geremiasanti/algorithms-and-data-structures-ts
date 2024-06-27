@@ -1,4 +1,4 @@
-function sumCharCodes(n: String) {
+function sumCharCodes(n: string) {
     let sum = 0;
     
     // loops makes it O(N)
@@ -10,7 +10,7 @@ function sumCharCodes(n: String) {
     return sum;
 }
 
-function sumCharCodesTwice(n: String) {
+function sumCharCodesTwice(n: string) {
     let sum = 0;
     
     // first loops makes it O(N)
@@ -35,7 +35,7 @@ function sumCharCodesTwice(n: String) {
     return sum;
 }
 
-function sumCharCodesEarlyExit(n: String) {
+function sumCharCodesEarlyExit(n: string) {
     let sum = 0;
     
     // loops makes it O(N)
@@ -59,7 +59,7 @@ function sumCharCodesEarlyExit(n: String) {
     return sum;
 }
 
-function sumCharCodesQuadratic(n: String) {
+function sumCharCodesQuadratic(n: string) {
     let sum = 0;
     
     // the inner loop makes it O(N^2)
@@ -73,7 +73,7 @@ function sumCharCodesQuadratic(n: String) {
     return sum;
 }
 
-function sumCharCodesCubic(n: String) {
+function sumCharCodesCubic(n: string) {
     let sum = 0;
     
     // the triple inner loop makes it O(N^3)
