@@ -16,7 +16,7 @@ function binarySearch(haystack, needle) {
     } while (lowerBound < upperBound);
     return -1;
 }
-var a = [3, 7, 10, 12, 13, 31, 49, 55, 69, 84, 99];
+let a = [3, 7, 10, 12, 13, 31, 49, 55, 69, 84, 99];
 console.log(binarySearch(a, 12));
 console.log(binarySearch(a, 31));
 console.log(binarySearch(a, 44));
