@@ -5,8 +5,8 @@ type QNode<T> = {
 
 class Queue<T> {
     public length: number;
-    public head?: QNode<T>;
-    public tail?: QNode<T>;
+    private head?: QNode<T>;
+    private tail?: QNode<T>;
 
     constructor() {
         this.length = 0;
