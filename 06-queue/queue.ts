@@ -47,7 +47,7 @@ class Queue<T> {
     }
 
     toString(): string {
-        let out = '[';
+        let out = `n: ${this.length} [`;
 
         let notEmpty = false;
         let curr = this.head
@@ -66,11 +66,13 @@ class Queue<T> {
     }
 }
 
-let queue = new Queue<number>();
+const queue = new Queue<number>();
 console.log(queue.toString());
 
 queue.enqueue(16);
+console.log(queue.toString());
 queue.enqueue(69);
+console.log(queue.toString());
 queue.enqueue(420);
 console.log(queue.toString());
 
@@ -90,4 +92,3 @@ console.log(queue.toString());
 
 console.log(queue.deque());
 console.log(queue.toString());
-

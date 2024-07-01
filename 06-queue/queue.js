@@ -29,7 +29,7 @@ var Queue = /** @class */ (function () {
         return (_a = this.head) === null || _a === void 0 ? void 0 : _a.value;
     };
     Queue.prototype.toString = function () {
-        var out = '[';
+        var out = "n: ".concat(this.length, " [");
         var notEmpty = false;
         var curr = this.head;
         while (curr) {
@@ -47,7 +47,9 @@ var Queue = /** @class */ (function () {
 var queue = new Queue();
 console.log(queue.toString());
 queue.enqueue(16);
+console.log(queue.toString());
 queue.enqueue(69);
+console.log(queue.toString());
 queue.enqueue(420);
 console.log(queue.toString());
 console.log(queue.deque());
