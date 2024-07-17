@@ -76,3 +76,15 @@ logMaze(maze);
 console.log(
     solve(maze, '#', {x: 1, y: 2}, {x: 5, y: 0})
 )
+
+const maze1 = [
+    "###S#E#",
+    "#   # #",
+    "# ### #",
+    "#     #",
+    "#######",
+]; 
+logMaze(maze1);
+console.log(
+    solve(maze1, '#', {x: 3, y: 0}, {x: 5, y: 0})
+)
